@@ -1,9 +1,10 @@
 import React from 'react';
 import NavBar from './NavBar';
+import '../styles/homepage.css';
 
 function HomePage() {
   return (
-    <div>
+    <div className="homepage"> {/* Apply the CSS class */}
       <NavBar /> {/* Use the Header component */}
       <main>
         {/* Your homepage content here */}
